@@ -1,0 +1,35 @@
+package com.struts2.mybatis.actions;
+
+import org.apache.struts2.convention.annotation.Action;
+import org.apache.struts2.convention.annotation.Namespace;
+
+import com.opensymphony.xwork2.ActionSupport;
+import com.opensymphony.xwork2.ModelDriven;
+import com.struts2.mybatis.models.Employee;
+
+@Namespace("/")
+public class EmployeeAction extends ActionSupport implements ModelDriven<Employee> {
+	private static final long serialVersionUID = 1L;
+	
+	private Employee employee;
+	
+	public Employee getEmployee() {
+		return employee;
+	}
+
+	public void setEmployee(Employee employee) {
+		this.employee = employee;
+	}
+
+	@Override
+	public Employee getModel() {
+		employee = new Employee();
+		return employee;
+	}
+	
+	@Action("/showAddForm")
+	@Result(name = "success", location = "/listProduct",type = "redirect")
+	public String showAddForm() {
+		return SUCCESS;
+	}
+}

@@ -1,0 +1,42 @@
+package com.struts2.mybatis.service.impl;
+
+import java.util.List;
+
+import org.apache.ibatis.session.SqlSession;
+
+import com.struts2.mybatis.config.MyBatisUtil;
+import com.struts2.mybatis.dao.EmployeeDao;
+import com.struts2.mybatis.models.Employee;
+import com.struts2.mybatis.service.EmployeeService;
+
+public class EmployeeServiceImpl implements EmployeeService {
+
+	SqlSession session = MyBatisUtil.getSqlSessionFactory().openSession();
+	EmployeeDao mapper = session.getMapper(EmployeeDao.class);
+
+	@Override
+	public List<Employee> findAll() {
+		return mapper.findAll();
+	}
+
+	@Override
+	public int save(Employee employee) {
+		return mapper.save(employee);
+	}
+
+	@Override
+	public Employee findById(int id) {
+		return mapper.findById(id);
+	}
+
+	@Override
+	public int updateEmployee(Employee employee) {
+		return mapper.updateEmployee(employee);
+	}
+
+	@Override
+	public int deleteById(int id) {
+		return 0;
+	}
+
+}

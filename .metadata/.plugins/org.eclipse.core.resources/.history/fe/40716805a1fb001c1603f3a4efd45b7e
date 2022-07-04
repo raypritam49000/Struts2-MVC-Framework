@@ -1,0 +1,8 @@
+package com.struts2.mybatis.actions;
+
+import org.apache.struts2.convention.annotation.Namespace;
+
+@Namespace("/")
+public class EmployeeAction {
+
+}

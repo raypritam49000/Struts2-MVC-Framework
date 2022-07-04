@@ -1,0 +1,5 @@
+package com.struts2.mybatis.actions;
+
+public class AddEmployeeAction {
+
+}

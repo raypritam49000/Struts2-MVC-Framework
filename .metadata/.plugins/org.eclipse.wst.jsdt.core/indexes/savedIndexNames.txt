@@ -1,0 +1,16 @@
+INDEX VERSION 1.4+F:\MyAllPorgrams\Java Framework\Struts2FrameworkDemo\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+2910670379.index
+1407093543.index
+330125367.index
+3596955702.index
+2397910000.index
+2655210855.index
+3220680400.index
+1903813589.index
+66778165.index
+3931065794.index
+811095602.index
+225219191.index
+3281323996.index
+3857751393.index
+2497966343.index

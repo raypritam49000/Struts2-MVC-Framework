@@ -1,0 +1,16 @@
+package com.struts2.mybatis.test;
+
+import javax.inject.Inject;
+
+import com.struts2.mybatis.models.Employee;
+import com.struts2.mybatis.service.impl.EmployeeServiceImpl;
+
+public class Test {
+	
+	@Inject
+	private EmployeeServiceImpl employeeService;
+	
+	public static void main(String[] args) {
+       System.out.println(Employee);
+	}
+}

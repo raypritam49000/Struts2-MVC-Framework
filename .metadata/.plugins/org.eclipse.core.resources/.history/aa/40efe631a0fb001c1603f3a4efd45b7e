@@ -1,0 +1,7 @@
+package com.struts2.mybatis.frontcontroller;
+
+import org.apache.struts2.dispatcher.filter.StrutsPrepareAndExecuteFilter;
+
+public class StrustFrontController extends StrutsPrepareAndExecuteFilter{
+
+}

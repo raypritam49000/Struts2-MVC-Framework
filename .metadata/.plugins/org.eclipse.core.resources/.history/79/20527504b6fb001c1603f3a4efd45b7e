@@ -1,0 +1,9 @@
+package com.struts2.mybatis.actions;
+
+import com.opensymphony.xwork2.ActionSupport;
+import com.opensymphony.xwork2.ModelDriven;
+import com.struts2.mybatis.models.Employee;
+
+public class AddEmployeeAction extends ActionSupport implements ModelDriven<Employee>{
+
+}

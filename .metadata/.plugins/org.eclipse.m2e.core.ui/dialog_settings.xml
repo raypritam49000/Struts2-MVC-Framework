@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="F:\MyAllPorgrams\Java Framework\Struts2FrameworkDemo\StrutsWithJdbcCrudDemo"/>
+			<item value="F:\MyAllPorgrams\Java Framework\Struts2FrameworkDemo\StrutsHelloWorld"/>
+			<item value="F:\MyAllPorgrams\Java Framework\Struts2FrameworkDemo\StrutsTagWithStruts2"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.struts2.mybatis"/>
+			<item value="com.struts2.hibernate.ogm"/>
+			<item value="com.spark.rest.api"/>
+			<item value="com.struts.actions"/>
+			<item value="com.struts"/>
+			<item value="com.demo"/>
+		</list>
+		<list key="groupId">
+			<item value="com.struts2.mybatis"/>
+			<item value="com.struts2.hibernate.ogm"/>
+			<item value="com.spark.rest.api"/>
+			<item value="com.struts.actions"/>
+			<item value="com.struts"/>
+			<item value="com.demo"/>
+		</list>
+		<list key="artifactId">
+			<item value="Struts2WithMyBatisAndMysqlDemo"/>
+			<item value="StrutsWithHibernateOGMDemo"/>
+			<item value="SparkRestApiDemo"/>
+			<item value="RestApiWithSparkDemo"/>
+			<item value="Strust2WithSpringDataJPADemo"/>
+			<item value="Struts2WithPageTemplate"/>
+			<item value="Struts2HibernateValidationDemo"/>
+			<item value="Struts2WithHttpSessionDemo"/>
+			<item value="Struts2FrameworkWithHttpSession"/>
+			<item value="Strust2FrameworkWithValidation"/>
+			<item value="SprakRestApiWithMySqlDemo"/>
+			<item value="StrutsWithJdbcCrudDemo"/>
+			<item value="ModelDrivenInterceoterDemo"/>
+			<item value="StrutsWithFormDemo"/>
+			<item value="StrutsTagWithStruts2"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="667"/>
+		<item key="x" value="720"/>
+		<item key="y" value="71"/>
+	</section>
+</section>

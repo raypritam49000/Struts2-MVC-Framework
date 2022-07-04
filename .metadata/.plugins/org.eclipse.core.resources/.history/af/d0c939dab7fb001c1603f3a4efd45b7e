@@ -1,0 +1,40 @@
+package com.struts2.mybatis.dao;
+
+import java.util.List;
+
+import org.apache.ibatis.annotations.Delete;
+import org.apache.ibatis.annotations.Insert;
+import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Result;
+import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.Update;
+
+import com.struts2.mybatis.models.Employee;
+
+@Mapper
+public interface EmployeeDao {
+
+	@Select("select * from employee")
+	public abstract List<Employee> findAll();
+
+	@Insert("insert into employe(name,city,salary) values() ")
+	public int save(Employee employee);
+
+	@Results({ 
+		@Result(property = "id", column = "id"),
+		@Result(property = "name", column = "name"),
+		@Result(property = "city", column = "dcity")
+		})
+	@Select("SELECT id, name, district from village WHERE id = #{id}")
+	Village selectVillage(int id);
+
+	@Insert("INSERT into village(name,district) VALUES(#{villageName}, #{district})")
+	void insertVillage(Village village);
+
+	@Update("UPDATE village SET name=#{villageName}, district =#{district} WHERE id =#{vid}")
+	void updateVillage(Village village);
+
+	@Delete("DELETE FROM village WHERE id =#{id}")
+	void deleteVillage(int id);
+
+}
